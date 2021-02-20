@@ -2,12 +2,18 @@ body {
   padding-bottom: 5rem;
 }
 
+#home .card {
+  border-radius: 0.6rem;
+  box-shadow: 0 0 1rem #ffd700 !important;
+}
+
 #home .card-header {
   border-radius: 0.6rem 0.6rem 0 0;
 }
 #home .card-header .birthday {
   color: rgba(255, 255, 255, 0.75);
 }
+
 #home .card-footer {
   border-radius: 0 0 0.6rem 0.6rem;
 }
