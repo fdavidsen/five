@@ -13,9 +13,6 @@ sup {
 #home .card-header {
   border-radius: .6rem .6rem 0 0;
 }
-#home .card-header .birthday {
-  color: rgba(255, 255, 255, .75);
-}
 
 @media (max-width: 500px) {
   #home .card-img {
