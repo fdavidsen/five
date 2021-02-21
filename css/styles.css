@@ -1,8 +1,6 @@
-html {
-  overflow-x: hidden;
-}
 section {
   display: none;
+  font-size: 0.75rem;
   padding: 6rem 0 5rem;
 }
 section.active {
@@ -36,14 +34,13 @@ sup {
 #member .card-header {
   border-radius: .6rem .6rem 0 0;
 }
-@media (max-width: 500px) {
-  #member .card-img {
-    padding: 0 2rem !important;
-  }
+#member .card-img {
+  max-height: 300px;
+  overflow-y: hidden;
 }
-@media (max-width: 450px) {
-  #member .card-img {
-    padding: 0 1rem !important;
+@media (min-width: 768px) {
+  #member .card-body {
+    display: inline !important;
   }
 }
 #member .card-footer {
