@@ -1,33 +1,75 @@
 body {
-  padding-bottom: 5rem;
+  overflow-x: hidden;
+}
+section {
+  display: none;
+  padding: 6rem 0 5rem;
+}
+section.active {
+  display: block;
 }
 sup {
   position: static;
 }
 
-#home .card {
-  border-radius: .6rem;
-  box-shadow: 0 0 1rem #ffd700 !important;
+#home a[data-section] {
+  height: 250px;
+  color: #808080;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5.5rem;
+  transition: .4s;
+}
+#home a[data-section]:hover {
+  color: #fff;
+}
+#home a[data-section] i {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-#home .card-header {
+#member .card {
+  border-radius: .6rem;
+}
+#member .card-header {
   border-radius: .6rem .6rem 0 0;
 }
-
 @media (max-width: 500px) {
-  #home .card-img {
+  #member .card-img {
     padding: 0 2rem !important;
   }
 }
 @media (max-width: 450px) {
-  #home .card-img {
+  #member .card-img {
     padding: 0 1rem !important;
   }
 }
-
-#home .card-footer {
+#member .card-footer {
   border-radius: 0 0 .6rem .6rem;
 }
-#home .card-footer blockquote {
-  color: rgba(255, 255, 255, .75);
+#member .card-footer blockquote {
+  color: #d6d6d6;
+}
+
+.btn-home {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 10;
+}
+.btn-home i {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #808080;
+  font-size: 1.5rem;
+  transition: .4s;
+}
+.btn-home i:hover {
+  color: #fff;
 }
