@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Crenzo;
+  src: url(https://drive.google.com/uc?export=view&id=1qBbgLCLSjHjhBdUtLM33f627eyJQTV5b)
+}
+
 section {
   display: none;
   font-size: 0.75rem;
@@ -10,6 +15,10 @@ sup {
   position: static;
 }
 
+.navbar-brand {
+  font-family: Crenzo;
+}
+
 #home a[data-section] {
   height: 250px;
   color: #808080;
@@ -18,9 +27,14 @@ sup {
   text-decoration: none;
   padding-top: 5.5rem;
   transition: .4s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  filter: grayscale(100%);
 }
 #home a[data-section]:hover {
   color: #fff;
+  filter: grayscale(0%);
 }
 #home a[data-section] i {
   display: block;
@@ -39,6 +53,9 @@ sup {
   overflow-y: hidden;
 }
 @media (min-width: 768px) {
+  #member .card .col-md-4 {
+    padding-bottom: 1rem !important;
+  }
   #member .card-body {
     display: inline !important;
   }
