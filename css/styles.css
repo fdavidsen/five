@@ -60,8 +60,9 @@ sup {
     display: inline !important;
   }
 }
+#member .card.rounded-bottom,
 #member .card-footer {
-  border-radius: 0 0 .6rem .6rem;
+  border-radius: 0 0 .6rem .6rem !important;
 }
 #member .card-footer blockquote {
   color: #d6d6d6;
