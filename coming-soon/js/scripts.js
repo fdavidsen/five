@@ -2,6 +2,28 @@ $(window).load(function () {
   $('.preloader').fadeOut('slow');
 });
 
+$('.sub-title').click(function() {
+  Swal.fire({
+    input: 'text',
+    inputAttributes: {
+      autocapitalize: 'off'
+    },
+    showCancelButton: true,
+    showLoaderOnConfirm: true,
+    preConfirm: (word) => {
+      if (word !== 'bundawinata') {
+        Swal.showValidationMessage(
+          'Request failed!'
+        );
+      }
+    },
+    allowOutsideClick: true
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.location.href = '../main.html';
+    }
+  });
+});
 
 /* =Main INIT Function
 -------------------------------------------------------------- */
