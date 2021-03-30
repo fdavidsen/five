@@ -9,7 +9,7 @@ function getSeconds(date) {
 }
 
 $.ajax({
-  url: 'json/biography.json',
+  url: 'assets/json/biography.json',
   method: 'GET',
   dataType: 'JSON',
   success: function(result) {
