@@ -1,289 +1,391 @@
 ﻿[
   {
-      "name": "Kenichi Lim",
-      "email": "kenichilim77@gmail.com"
+      "class_number": "27",
+      "name": "Abelio Endru Malau",
+      "gender": "male",
+      "birthday": "28 Juni 2003",
+      "email": "abeliomalau03@gmail.com",
+      "instagram": "abeliomalau",
+      "joke": "lagi butuh dana cepat, ovo 081265868832",
+      "quote": "kata mamak ku aku paling bodoh disutomo"
   },
   {
-      "name": "Vanessa Natalie Lourenza",
-      "email": "vnsnataliee@gmail.com",
-      "instagram": "vnsnataliee",
-      "zodiac": "Capricorn ",
-      "birthday": "25 Desember 2003",
-      "quote": "Life is a journey to be experienced, not a problem to be solved. - Pooh -"
-  },
-  {
-      "name": "Michelyn Leonid",
-      "birthday": "1 April 2003",
-      "quote": "Glad this shit is almost over ~"
-  },
-  {
-      "name": "Nicholas Liandy",
-      "email": "nicholasliandy@gmail.com",
-      "instagram": "nicholas.liandy",
-      "zodiac": "Gemini",
-      "birthday": "17 Juni 2003",
-      "quote": "Stay positive, work hard, make it happen."
-  },
-  {
-      "name": "Vera Ariantou",
-      "email": "ariantovera523@gmail.com",
-      "instagram": "veraar31",
-      "zodiac": "-scorpio-",
-      "birthday": "31 Oktober 2003",
-      "quote": "Be You. Do You. For You ♥"
-  },
-  {
-      "name": "Cindy Lawrence Angkasa",
-      "quote": "Do it for yourself cuz no one cares unless you are smart, pretty, famous, rich or dead."
-  },
-  {
-      "name": "Meiske Elizabeth Chow",
-      "email": "elizabethchow1404@gmail.com",
-      "instagram": "meiskeec",
-      "birthday": "18 Mei 2004",
-      "quote": "In every meeting, there is a parting. Life just goes that way. All we can do is to accept it with smile. "
-  },
-  {
-      "name": "Yovanka",
-      "email": "yovankagunawan@gmail.com",
-      "birthday": "27 April 03",
-      "quote": "my favorite type of tea is teadur"
-  },
-  {
-      "name": "Naufal Abiyyu Suharsono",
-      "email": "naufal2083@gmail.com",
-      "instagram": "naufal2083",
-      "zodiac": "Leo",
-      "birthday": "20 Agustus 2003",
-      "quote": "Time is what we want most and what we use worst"
-  },
-  {
-      "name": "Jovan Hobart"
-  },
-  {
-      "name": "Dwi Paranggi Purba",
-      "instagram": "dwipurba77",
-      "joke": "ANAK TAEKWONDO",
-      "birthday": "17 Maret",
-      "quote": "Running through time, without purpose"
-  },
-  {
+      "class_number": "12",
       "name": "Agatha Alexia",
+      "gender": "female",
+      "birthday": "21 Februari 2004",
       "instagram": "agathaa.alexia",
       "joke": "why sad? happy:)",
-      "birthday": "21 Februari 2004",
       "quote": "It was never meant to be"
   },
   {
-      "name": "Vance Felic Faustine",
-      "email": "vance.felic@gmail.com",
-      "instagram": "vancefelic",
-      "birthday": "14 Januari 2003",
-      "quote": "INGAT! Kembalilah ke jalan yang benar. Lakukanlah hal yang tak baik dan tak benar."
+      "class_number": "28",
+      "name": "Aldrik Joe Melvin Tarigan",
+      "gender": "male",
+      "birthday": "23 Maret 2003",
+      "email": "aldriktarigan@gmail.com",
+      "instagram": "aldriktarigan",
+      "joke": "Love United Hate Glazers",
+      "quote": "Kenapa harus ada matahari tenggelam di hari yang sempurna"
   },
   {
-      "name": "Kevin Winata",
-      "email": "winatakevin65@gmail.com"
+      "class_number": "01",
+      "name": "Andreas",
+      "gender": "male",
+      "birthday": "18 Maret 2003",
+      "email": "zerohexer@gmail.com",
+      "hobby": "I love to play CS:GO",
+      "quote": "Work hard at work to work hard at life."
   },
   {
-      "name": "Karen Margaretha Bakara",
-      "email": "karenmrgtha@gmail.com",
-      "instagram": "karenmrgtha",
-      "birthday": "8 November 2003",
-      "quote": "Apa adanya bukan ada apanya"
+      "class_number": "29",
+      "name": "Ariel Keriahen Sembiring",
+      "gender": "male",
+      "birthday": "24 September 2003",
+      "email": "mobzilla121@gmail.com",
+      "instagram": "arielkslar",
+      "zodiac": "Libra",
+      "quote": "I can’t imagine this will make things any easier, but this is all I can do"
   },
   {
-      "name": "Viviany Marcella",
-      "email": "vivianymarcella@gmail.com",
-      "instagram": "24v.m58",
-      "zodiac": "Pisces ",
-      "birthday": "15 Maret 2003",
-      "quote": "No one is perfect, just be ur self, that's hard enough."
+      "class_number": "02",
+      "name": "Cindy Lawrence Angkasa",
+      "gender": "female",
+      "quote": "Do it for yourself cuz no one cares unless you are smart, pretty, famous, rich or dead."
   },
   {
-      "name": "Filbert Wijaya",
-      "email": "filbertwijaya2003@gmail.com",
-      "instagram": "filbert.wijaya",
-      "zodiac": "Virgo",
-      "birthday": "06-09-2003",
-      "quote": "\"Almost never\" is an interesting concept!"
-  },
-  {
+      "class_number": "13",
       "name": "Clarence Shereen Hubert",
+      "gender": "female",
+      "birthday": "18 Maret 2003",
       "email": "clarence.1803@gmail.com",
       "instagram": "clarencehubert",
       "zodiac": "Pisces",
-      "birthday": "18 Maret 2003",
       "quote": "Should have burnt this place out when I had the chance ^_^"
   },
   {
-      "name": "Valencia Jholie Ng",
-      "email": "valenciajolie8888@gmail.com",
-      "instagram": "valencia_jholie",
-      "birthday": "26 April 2004",
-      "quote": "Don't remain stuck in the winter and miss the spring"
+      "class_number": "30",
+      "name": "Cristian Lim",
+      "gender": "male",
+      "birthday": "25 Juli 2003",
+      "email": "cristianlim546@gmail.com",
+      "instagram": "limcristian",
+      "joke": "Leo kripik kentang asli",
+      "quote": "You'll Never Walk Alone (YNWA)"
   },
   {
+      "class_number": "14",
+      "name": "Dwi Paranggi Purba",
+      "gender": "male",
+      "birthday": "17 Maret 2003",
+      "instagram": "dwipurba77",
+      "joke": "ANAK TAEKWONDO",
+      "quote": "Running through time, without purpose"
+  },
+  {
+      "class_number": "24",
+      "name": "Fanny Pricilia Aphrodita",
+      "gender": "female",
+      "birthday": "25 April 2003",
+      "email": "fannypriciliaa4@gmail.com",
+      "instagram": "fannypriciliaa",
+      "quote": "Berpura-pura lah menjadi baik sampai kalian lupa bahwa kalian sedang berpura-pura"
+  },
+  {
+      "class_number": "31",
+      "name": "Filbert Wijaya",
+      "gender": "male",
+      "birthday": "6 September 2003",
+      "email": "filbertwijaya2003@gmail.com",
+      "instagram": "filbert.wijaya",
+      "zodiac": "Virgo",
+      "quote": "\"Almost never\" is an interesting concept!"
+  },
+  {
+      "class_number": "32",
+      "name": "FIRMAN ADI PUTRA NASUTION ",
+      "gender": "male",
+      "birthday": "5 Agustus 2003",
+      "email": "firmanaiputra591@gmail.com",
+      "instagram": "firmanputranst",
+      "zodiac": "Leo",
+      "joke": "taken/bucin/ganteng ",
+      "quote": "TETAPLAH HIDUP WALAUPUN TAK BERGUNA"
+  },
+  {
+      "class_number": "15",
+      "name": "Frederic Davidsen",
+      "gender": "male",
+      "birthday": "19 April 2003",
+      "email": "f.davidsen19@gmail.com",
+      "instagram": "frederic_davidsen",
+      "zodiac": "Aries",
+      "quote": "Throw me to the wolves, and I'll come back leading the pack"
+  },
+  {
+      "class_number": "33",
+      "name": "Gabriel Sigalingging",
+      "gender": "male",
+      "birthday": "22 April 2004",
+      "email": "gabrielsondang@gmail.com",
+      "instagram": "gabriel_sigalingging"
+  },
+  {
+      "class_number": "34",
+      "name": "Galuh Arya Guna",
+      "gender": "male",
+      "birthday": "6 Januari 2004",
+      "email": "galuharyaguna2004@gmail.com",
+      "instagram": "galuharyaguna",
+      "joke": "nomor 27,28,30,38 anak buahku",
+      "quote": "If your dreams don’t scare you,they aren’t big enough."
+  },
+  {
+      "class_number": "35",
       "name": "Gevytha Margaret Siahaan",
+      "gender": "female",
+      "birthday": "21 Maret 2003",
       "email": "gevythamargareth08@gmail.com",
       "instagram": "gevythasiahaan21",
       "zodiac": "Aries",
       "hobby": "makan ",
       "joke": "follow (ig) wkwk",
-      "birthday": "21 Maret 2003",
       "quote": "SEE U ON THE TOP 🤎✨"
   },
   {
-      "name": "Aldrik Joe Melvin Tarigan",
-      "email": "aldriktarigan@gmail.com",
-      "instagram": "aldriktarigan",
-      "joke": "Love United Hate Glazers",
-      "birthday": "23 Maret 2003",
-      "quote": "Kenapa harus ada matahari tenggelam di hari yang sempurna"
-  },
-  {
+      "class_number": "16",
       "name": "Jesslyn Felicia Kosim",
+      "gender": "female",
       "birthday": "4 November 2003"
   },
   {
-      "name": "MINDIHARDILA",
-      "email": "hardilamindi29@gmail.con",
-      "instagram": "mindihardilaaaa",
-      "zodiac": "Capricon",
-      "birthday": "29 December 2002"
+      "class_number": "03",
+      "name": "Jovan Hobart",
+      "gender": "male"
   },
   {
-      "name": "Andreas",
-      "email": "zerohexer@gmail.com",
-      "hobby": "I love to play CS:GO",
-      "birthday": "18 Maret 2003",
-      "quote": "Work hard at work to work hard at life."
-  },
-  {
-      "name": "Fanny Pricilia Aphrodita",
-      "email": "fannypriciliaa4@gmail.com",
-      "instagram": "fannypriciliaa",
-      "birthday": "25 April 2003",
-      "quote": "Berpura-pura lah menjadi baik sampai kalian lupa bahwa kalian sedang berpura-pura"
-  },
-  {
-      "name": "Vanecia Govani",
-      "email": "vaneciagovani@gmail.con",
-      "instagram": "vaneciagovani",
-      "zodiac": "Aquarius",
-      "hobby": "drawing and singing",
-      "birthday": "13 Februari 2003",
-      "quote": "Distance means nothing when someone means everything ❤️"
-  },
-  {
-      "name": "Michael Ivan Frengky Marbun",
-      "email": "michaelmarbun22@gmail.com",
-      "instagram": "michaelmarbun22",
-      "joke": "Pergilah ke warnet sebelum terlambat.",
-      "birthday": "22 Agustus 2003",
-      "quote": "Jangan hanya menghitung apa yang telah hilang, tetapi pikirkan apa yang masih kita miliki."
-  },
-  {
+      "class_number": "04",
       "name": "Juli Winata",
+      "gender": "female",
+      "birthday": "5 Juli 2003",
       "email": "juliwinata48@gmail.com",
       "instagram": "juliwinata",
       "joke": "abcdefghijklmnopqrstuvwxyz",
-      "birthday": "5 Juli 2003",
       "quote": "expect nothing , appreciate everything."
   },
   {
-      "name": "Galuh Arya Guna",
-      "email": "galuharyaguna2004@gmail.com",
-      "instagram": "galuharyaguna",
-      "joke": "nomor 27,28,30,38 anak buahku",
-      "birthday": "6 Januari  2004",
-      "quote": "If your dreams don’t scare you,they aren’t big enough."
+      "class_number": "05",
+      "name": "Karen Margaretha Bakara",
+      "gender": "female",
+      "birthday": "8 November 2003",
+      "email": "karenmrgtha@gmail.com",
+      "instagram": "karenmrgtha",
+      "quote": "Apa adanya bukan ada apanya"
   },
   {
-      "name": "SITI NAZHIFAH NASUTION",
-      "email": "nazhifahnasution@gmail.com",
-      "instagram": "nazhifaahh",
-      "birthday": "17 Oktober 2003"
+      "class_number": "06",
+      "name": "Kenichi Lim",
+      "gender": "male",
+      "email": "kenichilim77@gmail.com"
   },
   {
+      "class_number": "36",
+      "name": "Keniciro Yamamoto Tanoto",
+      "gender": "male",
+      "birthday": "28 Oktober 2003",
+      "email": "yamamotoz.kenzu@gmail.com",
+      "instagram": "yamam0to_ken",
+      "zodiac": "Scorpio",
+      "quote": "Make your school life as memorable as you can, because you may study everyday but you can't go to school once it has past your time."
+  },
+  {
+      "class_number": "37",
+      "name": "Kevin Winata",
+      "gender": "male",
+      "email": "winatakevin65@gmail.com"
+  },
+  {
+      "class_number": "17",
+      "name": "Meiske Elizabeth Chow",
+      "gender": "female",
+      "birthday": "18 Mei 2004",
+      "email": "elizabethchow1404@gmail.com",
+      "instagram": "meiskeec",
+      "quote": "In every meeting, there is a parting. Life just goes that way. All we can do is to accept it with smile. "
+  },
+  {
+      "class_number": "38",
+      "name": "Michael Cuang",
+      "gender": "male",
+      "birthday": "1 Mei 2003",
+      "email": "Michael29455@gmail.com",
+      "quote": "Saying is NOTHING , Doing is EVERYTHING"
+  },
+  {
+      "class_number": "18",
+      "name": "Michael Ivan Frengky Marbun",
+      "gender": "male",
+      "birthday": "22 Agustus 2003",
+      "email": "michaelmarbun22@gmail.com",
+      "instagram": "michaelmarbun22",
+      "joke": "Pergilah ke warnet sebelum terlambat.",
+      "quote": "Jangan hanya menghitung apa yang telah hilang, tetapi pikirkan apa yang masih kita miliki."
+  },
+  {
+      "class_number": "07",
+      "name": "Michelyn Leonid",
+      "gender": "female",
+      "birthday": "1 April 2003",
+      "quote": "Glad this shit is almost over ~"
+  },
+  {
+      "class_number": "22",
+      "name": "MINDIHARDILA",
+      "gender": "female",
+      "birthday": "29 Desember 2002",
+      "email": "hardilamindi29@gmail.con",
+      "instagram": "mindihardilaaaa",
+      "zodiac": "Capricon"
+  },
+  {
+      "class_number": "39",
+      "name": "Naufal Abiyyu Suharsono",
+      "gender": "male",
+      "birthday": "20 Agustus 2003",
+      "email": "naufal2083@gmail.com",
+      "instagram": "naufal2083",
+      "zodiac": "Leo",
+      "quote": "\" Time is what we want most and what we use worst \""
+  },
+  {
+      "class_number": "25",
       "name": "Nazla Nara Tsaniyya ",
+      "gender": "female",
+      "birthday": "23 September 2003",
       "email": "nazlanara@gmail.com",
       "instagram": "nazlanara",
-      "zodiac": "libra",
-      "birthday": "23 September 2003"
+      "zodiac": "libra"
   },
   {
-      "name": "priscilla dwinovita lumban tobing",
+      "class_number": "40",
+      "name": "Nicholas Liandy",
+      "gender": "male",
+      "birthday": "17 Juni 2003",
+      "email": "nicholasliandy@gmail.com",
+      "instagram": "nicholas.liandy",
+      "zodiac": "Gemini",
+      "quote": "Stay positive, work hard, make it happen."
+  },
+  {
+      "class_number": "08",
+      "name": "Priscilla Dwinovita Lumban Tobing",
+      "gender": "female",
+      "birthday": "15 November 2003",
       "email": "priscillatobing1503@gmail.com",
       "instagram": "priscillatobing",
       "zodiac": "scorpio",
       "hobby": "tidur,makan,shopping,ngaca",
       "joke": "kalo mau nguji nyali sm scorpio aja",
-      "birthday": "15 November 2003",
       "quote": "Guru telat murid minggat"
   },
   {
-      "name": "Gabriel Sigalingging",
-      "email": "gabrielsondang@gmail.com",
-      "instagram": "gabriel_sigalingging",
-      "birthday": "22 April 2004"
-  },
-  {
-      "name": "FIRMAN ADI PUTRA NASUTION ",
-      "email": "firmanaiputra591@gmail.com",
-      "instagram": "firmanputranst",
-      "zodiac": "Leo",
-      "joke": "taken/bucin/ganteng ",
-      "birthday": "5 Agustus 2003",
-      "quote": "TETAPLAH HIDUP WALAUPUN TAK BERGUNA"
-  },
-  {
-      "name": "Steven tanadi",
-      "birthday": "8 September 2003"
-  },
-  {
-      "name": "Michael Cuang",
-      "email": "michael29455@gmail.com",
-      "birthday": "1 Mei 2003",
-      "quote": "Saying is NOTHING , Doing is EVERYTHING"
-  },
-  {
-      "name": "yamamotoz.kenzu@gmail.com",
-      "email": "yamamotoz.kenzu@gmail.com",
-      "instagram": "yamam0to_ken",
-      "zodiac": "Scorpio",
-      "birthday": "28 Oktober 2003",
-      "quote": "Make your school life as memorable as you can, because you may study everyday but you can't go to school once it has past your time."
-  },
-  {
+      "class_number": "41",
       "name": "Silvia Siola",
+      "gender": "female",
       "email": "silviasiola77777@gmail.com",
       "instagram": "silviasiolaa",
       "hobby": "gambar, hand-lettering , baca webtoon ",
       "quote": "Roses are red . Violets are blue . Everything's possible. Nothing is true."
   },
   {
-      "name": "Ariel Keriahen Sembiring",
-      "email": "mobzilla121@gmail.com",
-      "instagram": "arielkslar",
-      "zodiac": "Libra",
-      "birthday": "24 September 2003",
-      "quote": "I can’t imagine this will make things any easier, but this is all I can do"
+      "class_number": "19",
+      "name": "SITI NAZHIFAH NASUTION",
+      "gender": "female",
+      "birthday": "17 Oktober 2003",
+      "email": "nazhifahnasution@gmail.com",
+      "instagram": "nazhifaahh"
   },
   {
-      "name": "Cristian lim",
-      "email": "cristianlim546@gmail.com",
-      "instagram": "limcristian",
-      "joke": "Leo kripik kentang asli",
-      "birthday": "25 Juli 2003",
-      "quote": "You'll Never Walk Alone (YNWA)"
+      "class_number": "20",
+      "name": "Steven Tanadi",
+      "gender": "male",
+      "birthday": "8 September 2003"
   },
   {
-      "name": "Abelio Endru Malau",
-      "email": "abeliomalau03@gmail.com",
-      "instagram": "abeliomalau",
-      "joke": "lagi butuh dana cepat, ovo 081265868832",
-      "birthday": "28 Juni 2003",
-      "quote": "kata mamak ku aku paling bodoh disutomo"
+      "class_number": "09",
+      "name": "Valencia Jholie Ng",
+      "gender": "female",
+      "birthday": "26 April 2004",
+      "email": "valenciajolie8888@gmail.com",
+      "instagram": "valencia_jholie",
+      "quote": "Don't remain stuck in the winter and miss the spring"
+  },
+  {
+      "class_number": "42",
+      "name": "Vance Felic Faustine",
+      "gender": "male",
+      "birthday": "14 Januari 2003",
+      "email": "vance.felic@gmail.com",
+      "instagram": "vancefelic",
+      "quote": "INGAT! Kembalilah ke jalan yang benar. Lakukanlah hal yang tak baik dan tak benar."
+  },
+  {
+      "class_number": "23",
+      "name": "Vanecia Govani",
+      "gender": "female",
+      "birthday": "13 Februari 2003",
+      "email": "vaneciagovani@gmail.con",
+      "instagram": "vaneciagovani",
+      "zodiac": "Aquarius",
+      "hobby": "drawing and singing",
+      "quote": "Distance means nothing when someone means everything ❤️"
+  },
+  {
+      "class_number": "26",
+      "name": "Vanessa Natalie Lourenza",
+      "gender": "female",
+      "birthday": "25 Desember 2003",
+      "email": "vnsnataliee@gmail.com",
+      "instagram": "vnsnataliee",
+      "zodiac": "Capricorn ",
+      "quote": "Life is a journey to be experienced, not a problem to be solved. - Pooh -"
+  },
+  {
+      "class_number": "21",
+      "name": "Vera Ariantou",
+      "gender": "female",
+      "birthday": "31 Oktober 2003",
+      "email": "ariantovera523@gmail.com",
+      "instagram": "veraar31",
+      "zodiac": "-scorpio-",
+      "quote": "Be You. Do You. For You ♥"
+  },
+  {
+      "class_number": "43",
+      "name": "Viviany Marcella",
+      "gender": "female",
+      "birthday": "15 Maret 2003",
+      "email": "vivianymarcella@gmail.com",
+      "instagram": "24v.m58",
+      "zodiac": "Pisces ",
+      "quote": "No one is perfect, just be ur self, that's hard enough."
+  },
+  {
+      "class_number": "10",
+      "name": "Winsen Lois",
+      "gender": "male",
+      "birthday": "21 September 2003",
+      "email": "winsenlois21@gmail.com",
+      "instagram": "winsen.21",
+      "joke": "All Good // All Ways",
+      "quote": "Efficiency is clever laziness "
+  },
+  {
+      "class_number": "11",
+      "name": "Yovanka",
+      "gender": "female",
+      "birthday": "27 April 2003",
+      "email": "yovankagunawan@gmail.com",
+      "quote": "my favorite type of tea is teadur"
   }
 ]

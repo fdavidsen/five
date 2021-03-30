@@ -1,6 +1,6 @@
 @font-face {
   font-family: Crenzo;
-  src: url(https://drive.google.com/uc?export=view&id=1qBbgLCLSjHjhBdUtLM33f627eyJQTV5b)
+  src: url(../fonts/CRENZO.ttf);
 }
 
 section {
@@ -17,6 +17,11 @@ sup {
 
 .navbar-brand {
   font-family: Crenzo;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+.navbar-brand img {
+  margin-top: -0.3rem;
 }
 
 #home a[data-section] {
@@ -27,14 +32,14 @@ sup {
   text-decoration: none;
   padding-top: 5.5rem;
   transition: .4s;
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
 }
 #home a[data-section]:hover {
   color: #fff;
-  filter: grayscale(0%);
+  /* filter: grayscale(0%); */
 }
 #home a[data-section] i {
   display: block;
@@ -42,8 +47,23 @@ sup {
   margin-bottom: 1rem;
 }
 
+#member .filter-container {
+  height: 100%;
+}
+#member button:focus,
+#member select:focus {
+  box-shadow: none;
+}
+@media (max-width: 768px) {
+  #member .search-wrapper {
+    width: 75% !important;
+  }
+}
 #member .card {
   border-radius: .6rem;
+}
+#member .bio-text p {
+  word-break: break-all;
 }
 #member .card-header {
   border-radius: .6rem .6rem 0 0;
@@ -52,14 +72,6 @@ sup {
   max-height: 300px;
   overflow-y: hidden;
 }
-@media (min-width: 768px) {
-  #member .card .col-md-4 {
-    padding-bottom: 1rem !important;
-  }
-  #member .card-body {
-    display: inline !important;
-  }
-}
 #member .card.rounded-bottom,
 #member .card-footer {
   border-radius: 0 0 .6rem .6rem !important;
@@ -67,12 +79,28 @@ sup {
 #member .card-footer blockquote {
   color: #d6d6d6;
 }
+@media (min-width: 768px) {
+  #member .card .bio-img {
+    padding-bottom: 1rem !important;
+  }
+  #member .card .bio-text {
+    padding-right: 1rem !important;
+    font-size: 1rem;
+  }
+  #member .card-body {
+    display: inline !important;
+  }
+  #member .card-footer blockquote {
+    font-size: 0.825rem;
+  }
+}
 
 .btn-home {
   display: none;
   position: fixed;
   right: 15px;
   bottom: 15px;
+  opacity: 0.75;
   z-index: 10;
 }
 .btn-home i {
