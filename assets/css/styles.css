@@ -95,6 +95,10 @@ sup {
   }
 }
 
+#video video {
+  max-height: 50vh;
+}
+
 .btn-home {
   display: none;
   position: fixed;
