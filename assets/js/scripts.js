@@ -16,25 +16,25 @@ function memberSection() {
     success: function(result) {
       let content = '';
       const year2005 = new Date(2005, 0, 1);
-      result.forEach(item => {
-        const birthdayTime = (item.birthday !== undefined) ? getSeconds(item.birthday) : year2005.getTime();
-        const birthday = (item.birthday !== undefined) ? `<p class="mb-1"><i class="fas fa-birthday-cake me-2"></i>${ item.birthday.slice(0, item.birthday.length - 5) }</p>` : '';     
-        const email = (item.email !== undefined) ? `<p class="mb-1"><i class="far fa-envelope me-2"></i>${ item.email }</p>` : '';
-        const zodiac = (item.zodiac !== undefined) ? `<p class="mb-1"><i class="far fa-star me-2"></i>${ item.zodiac }</p>` : '';
-        const hobby = (item.hobby !== undefined) ? `<p class="mb-1"><i class="far fa-heart me-2"></i>${ item.hobby }</p>` : '';
-        const message = (item.message !== undefined) ? `<p class="mb-1"><i class="far fa-smile-wink me-2"></i>${ item.message }</p>` : '';
-        const instagram = (item.instagram !== undefined) ?
+      for (var i = 0; i < result.length; i++) {
+        const birthdayTime = (result[i].birthday !== undefined) ? getSeconds(result[i].birthday) : year2005.getTime();
+        const birthday = (result[i].birthday !== undefined) ? `<p class="mb-1"><i class="fas fa-birthday-cake me-2"></i>${ result[i].birthday.slice(0, result[i].birthday.length - 5) }</p>` : '';     
+        const email = (result[i].email !== undefined) ? `<p class="mb-1"><i class="far fa-envelope me-2"></i>${ result[i].email }</p>` : '';
+        const zodiac = (result[i].zodiac !== undefined) ? `<p class="mb-1"><i class="far fa-star me-2"></i>${ result[i].zodiac }</p>` : '';
+        const hobby = (result[i].hobby !== undefined) ? `<p class="mb-1"><i class="far fa-heart me-2"></i>${ result[i].hobby }</p>` : '';
+        const message = (result[i].message !== undefined) ? `<p class="mb-1"><i class="far fa-smile-wink me-2"></i>${ result[i].message }</p>` : '';
+        const instagram = (result[i].instagram !== undefined) ?
           `<p class="mb-1">
             <i class="fab fa-instagram me-2"></i>
-            <a href="https://www.instagram.com/${ item.instagram }/" target="_blank">
-              ${ item.instagram }
+            <a href="https://www.instagram.com/${ result[i].instagram }/" target="_blank">
+              ${ result[i].instagram }
             </a>
           </p>` : '';
-        const quote = (item.quote !== undefined) ?
+        const quote = (result[i].quote !== undefined) ?
           `<div class="card-footer bg-dark text-center border-top-0 py-2">
             <sup><small><i class="fas fa-quote-left text-muted"></i></small></sup>
             <blockquote class="fst-italic my-0">
-              ${ item.quote }
+              ${ result[i].quote }
             </blockquote>
             <sup><small><i class="fas fa-quote-right text-muted"></i></small></sup>
           </div>` : '';
@@ -51,16 +51,16 @@ function memberSection() {
           </div>`, 'pb-1'] : ['', ''];
         
         content += `
-          <div class="col-md-6 col-xxl-4 filtr-item" data-category="${ item.gender }" data-name="${ item.name }" data-birthday="${ birthdayTime }" data-id="${ item.class_number }">
+          <div class="col-md-6 col-xxl-4 filtr-item" data-category="${ result[i].gender }" data-name="${ result[i].name }" data-birthday="${ birthdayTime }" data-id="${ result[i].class_number }">
             <div class="card border-0 shadow mb-5">
               <div class="card-header bg-dark text-center border-bottom-0 py-3">
-                <h6 class="card-title text-white fw-bold mb-0">${ item.name }</h6>
+                <h6 class="card-title text-white fw-bold mb-0">${ result[i].name }</h6>
               </div>
               <div class="card rounded-bottom rounded-0 border-0">
                 <div class="row justify-content-center g-0">
                   <div class="col-md-6 d-flex align-items-center p-3 ${ imgPaddingBottom } bio-img">
                     <div class="card-img">
-                      <img alt="${ item.name }" src="${ item.picture }" class="w-100 rounded">
+                      <img alt="${ result[i].name }" src="${ result[i].picture }" class="w-100 rounded">
                     </div>
                   </div>
                   ${ bio }
@@ -70,7 +70,7 @@ function memberSection() {
             </div>
           </div>
         `;
-      });
+      }
       $('#member .row.filter-container').html(content);
     }
   });
@@ -83,15 +83,15 @@ function photoSection() {
     dataType: 'JSON',
     success: function(result) {
       let content = '';
-      result.forEach(item => {
+      for (var i = 0; i < result.length; i++) {
         content += `
         <div class="col-md-4 col-xxl-3 my-3">
           <div class="card border-0 shadow">
-            <img src="${ item.source }" class="w-100 rounded" alt="">
+            <img src="${ result[i].source }" class="w-100 rounded" alt="">
           </div>
         </div>
         `;
-      });
+      }
       $('#photo .row').html(content);
     }
   });
@@ -104,13 +104,13 @@ function videoSection() {
     dataType: 'JSON',
     success: function(result) {
       let content = '';
-      result.forEach(item => {
+      for (var i = 0; i < result.length; i++) {
         content += `
           <div class="col-md-4 col-xxl-3 my-3">
-            <video class="w-100" controls src="${ item.source }"></video>
+            <video class="w-100" controls src="${ result[i].source }"></video>
           </div>
         `;
-      });
+      }
       $('#video .row').html(content);
     }
   });
@@ -123,20 +123,20 @@ function contributorSection() {
     dataType: 'JSON',
     success: function(result) {
       let content = '';
-      result.forEach(item => {
-        const [instagramLink, instagram] = (item.instagram !== undefined) ? [`https://www.instagram.com/${ item.instagram }/`, `@${ item.instagram }`] : ['#', ''];
+      for (var i = 0; i < result.length; i++) {
+        const [instagramLink, instagram] = (result[i].instagram !== undefined) ? [`https://www.instagram.com/${ result[i].instagram }/`, `@${ result[i].instagram }`] : ['#', ''];
         content += `
           <a class="list-group-item list-group-item-action" href="${ instagramLink }">
             <div class="wrapper d-flex align-items-center">
-              <img class="rounded me-3" src="${ item.picture }" alt="${ item.name }">
+              <img class="rounded me-3" src="${ result[i].picture }" alt="${ result[i].name }">
               <p class="d-inline-block fs-6 mb-0">
-                <strong>${ item.name }</strong>
+                <strong>${ result[i].name }</strong>
                 ${ instagram }
               </p>
             </div>
           </a>
         `;
-      });
+      }
       $('#contributor .list-group').html(content);
     }
   });
