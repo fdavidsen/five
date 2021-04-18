@@ -6,7 +6,7 @@
 section {
   display: none;
   font-size: 0.75rem;
-  padding: 6rem 0 5rem;
+  padding: 3rem 0 5rem;
 }
 section.active {
   display: block;
@@ -24,6 +24,12 @@ sup {
   margin-top: -0.3rem;
 }
 
+@media (max-width: 768px) {
+  #home .carousel-item img {
+    height: 75vw;
+    object-fit: cover;
+  }
+}
 #home a[data-section] {
   height: 250px;
   color: #808080;
@@ -32,14 +38,9 @@ sup {
   text-decoration: none;
   padding-top: 5.5rem;
   transition: .4s;
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  filter: grayscale(100%); */
 }
 #home a[data-section]:hover {
   color: #fff;
-  /* filter: grayscale(0%); */
 }
 #home a[data-section] i {
   display: block;
@@ -69,8 +70,7 @@ sup {
   border-radius: .6rem .6rem 0 0;
 }
 #member .card-img {
-  max-height: 300px;
-  overflow-y: hidden;
+  padding: 0 3.5rem;
 }
 #member .card.rounded-bottom,
 #member .card-footer {
@@ -87,6 +87,9 @@ sup {
     padding-right: 1rem !important;
     font-size: 1rem;
   }
+  #member .card-img {
+    padding: 0;
+  }
   #member .card-body {
     display: inline !important;
   }
@@ -95,8 +98,14 @@ sup {
   }
 }
 
+#photo img,
 #video video {
-  max-height: 50vh;
+  max-height: 90vh;
+  background-color: #000;
+}
+
+#contributor .list-group img {
+  width: 40px;
 }
 
 .btn-home {
